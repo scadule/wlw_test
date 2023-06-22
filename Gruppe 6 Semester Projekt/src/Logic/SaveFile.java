@@ -22,10 +22,7 @@ import java.util.logging.Logger;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-/**
- *
- * @author Nick
- */
+
 @JsonInclude(Include.NON_NULL)
 public class SaveFile {
 
@@ -56,7 +53,6 @@ public class SaveFile {
         this.player = player;
     }
     
-    //Here is the method, which gets the save string, that then, gets send to the Persistens layer
     public String getSaveString() {
         ObjectMapper mapper = new ObjectMapper();
         

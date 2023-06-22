@@ -9,12 +9,7 @@ import Acquaintance.IItem;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonInclude;
 
-/**
- *
- * @author bruger
- */
-//The item class.
-//This is where the pickupable item objects is created.
+
 @JsonIgnoreProperties(ignoreUnknown = true)
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class Item implements Interactables, IItem {

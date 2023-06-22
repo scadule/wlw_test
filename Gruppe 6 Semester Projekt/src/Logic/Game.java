@@ -11,11 +11,6 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import org.json.JSONException;
 
-/**
- * @author Michael Kolling and David J. Barnes
- * @version 2006.03.30
- */
-// the Class that contains the specifics in the game and assigns values to the initialized constructors
 public class Game {
 
     private String secondWord;  // refractior of the youse of the second word, its now d´the command given from the gui, the word have not been changed due to legacy reasons, alot of the logig resoved aroud this word therefor it was kept

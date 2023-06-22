@@ -1,8 +1,6 @@
 package Persistens;
 
-import Acquaintance.IPersonalScore;
 import com.fasterxml.jackson.databind.*;
-import com.fasterxml.jackson.annotation.*;
 import com.fasterxml.jackson.core.*;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.module.SimpleModule;
@@ -14,7 +12,7 @@ import java.util.logging.Logger;
 
 public class DataHighscore {
 
-    private ArrayList<IPersonalScore> scoreList = new ArrayList();
+    private ArrayList<DataPS> scoreList = new ArrayList();
 
     public DataHighscore() {
 
