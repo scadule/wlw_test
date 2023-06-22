@@ -22,10 +22,7 @@ import java.util.logging.Logger;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-/**
- *
- * @author Nick
- */
+
 @JsonInclude(Include.NON_NULL)
 public class SaveFile {
 
