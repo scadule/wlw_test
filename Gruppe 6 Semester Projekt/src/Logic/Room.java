@@ -15,7 +15,6 @@ import java.util.Map;
  * @author Michael Kolling and David J. Barnes
  * @version 2006.03.30
  */
-// this class is used for crating room objects for the player to transition between
 @JsonIgnoreProperties(ignoreUnknown = true)
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class Room implements IRoom {
