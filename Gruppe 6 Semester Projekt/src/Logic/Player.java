@@ -14,10 +14,7 @@ import static java.lang.Math.E;
 import java.util.Timer;
 import java.util.TimerTask;
 
-/**
- *
- * @author Nick, Jonas
- */
+
 @JsonIgnoreProperties(ignoreUnknown = true)
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class Player {
