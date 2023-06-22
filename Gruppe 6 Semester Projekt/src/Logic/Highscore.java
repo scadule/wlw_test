@@ -11,10 +11,7 @@ import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-/**
- *
- * @author Rasmus
- */
+
 public class Highscore {
     static ArrayList<PersonalScore> highscoreList;
     static ArrayList<String> stringList = new ArrayList<>();
