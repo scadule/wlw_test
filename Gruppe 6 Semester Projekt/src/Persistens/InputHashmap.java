@@ -29,7 +29,6 @@ public class InputHashmap {
     // the creations of the hasmap by reading the file
     private void createTextMap() {
         textMap = new HashMap<>();      // initiation of the hashmap
-        BufferedReader reader;
         try {
             reader = new BufferedReader(new FileReader(filePath)); // the file is read by a FileReader which is wrapped in a bufferedReader to read one line of a time.
         
