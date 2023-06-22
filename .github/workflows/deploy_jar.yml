@@ -1,0 +1,36 @@
+name: Build JavaFX Project
+
+on:
+  push:
+    branches:
+      - develop
+
+jobs:
+  build:
+    name: Build and Package
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Set up JDK 1.8
+      uses: actions/setup-java@v2
+      with:
+        java-version: 1.8
+    
+    - name: Install OpenJFX
+      run: sudo apt-get update && sudo apt-get install openjfx
+    
+    - name: Build Project
+      run: |
+        javac -d target --module-path /usr/share/openjfx/lib --add-modules javafx.controls,javafx.fxml src/*.java
+    
+    - name: Create JAR File
+      run: jar cfe app.jar Main -C target .
+
+    - name: Archive JAR File
+      uses: actions/upload-artifact@v2
+      with:
+        name: application
+        path: app.jar
