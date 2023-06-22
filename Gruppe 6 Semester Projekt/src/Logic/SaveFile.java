@@ -53,7 +53,6 @@ public class SaveFile {
         this.player = player;
     }
     
-    //Here is the method, which gets the save string, that then, gets send to the Persistens layer
     public String getSaveString() {
         ObjectMapper mapper = new ObjectMapper();
         
