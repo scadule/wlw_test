@@ -48,8 +48,8 @@ public class InputHashmap {
         }
     }
 
-    // method for getting the value(the text that is the descriptions.) out of the hashmap
-    static public String getText(String key) {
-        return textMap.get(key);
+    // me] is the descriptions.) out of the hashmap
+    static public String getText(String keys) {
+        return textMap.get(keys);
     }
 }
