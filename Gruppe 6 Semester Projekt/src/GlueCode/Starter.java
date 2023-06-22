@@ -14,10 +14,7 @@ import Persistens.PersistenceFacade;
 import java.io.IOException;
 import semesterprojektfx.GUIFacade;
 
-/**
- *
- * @author Rasmus
- */
+
 public class Starter {
 
     public static void main(String[] args) {
