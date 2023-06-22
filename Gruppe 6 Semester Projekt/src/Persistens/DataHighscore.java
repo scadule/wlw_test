@@ -12,10 +12,6 @@ import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-/**
- *Class used for handling the actions of transforming arraylists of IpersonalScore object into and back from files.
- * @author Rasmus Jensen
- */
 public class DataHighscore {
 
     private ArrayList<IPersonalScore> scoreList = new ArrayList();
