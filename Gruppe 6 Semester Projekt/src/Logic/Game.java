@@ -13,8 +13,8 @@ import org.json.JSONException;
 
 public class Game {
 
-    private String secondWord;  // refractior of the youse of the second word, its now d´the command given from the gui, the word have not been changed due to legacy reasons, alot of the logig resoved aroud this word therefor it was kept
-    Room currentRoom;   // initialises a starting room
+    private String secondWord;
+    Room currentRoom;
     Player player = new Player(100, 100);
     int inventorySpace = 2;
     private String dmgText;

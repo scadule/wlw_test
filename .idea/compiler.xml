@@ -9,8 +9,5 @@
         <module name="zuul" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="zuul" target="8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
